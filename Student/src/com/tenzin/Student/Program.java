@@ -30,8 +30,6 @@ public class Program {
         student.setSubName(input.next());
         System.out.println("Enter subject code:");
         student.setSubjectCode(input.nextInt());
-        System.out.println("Enter date:");
-        student.setDate(input.nextInt());
         System.out.println("Enter status:");   
         student.setStatus(input.nextBoolean());
        

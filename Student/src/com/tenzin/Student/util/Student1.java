@@ -12,20 +12,18 @@ package com.tenzin.Student.util;
 public class Student1 {
     private int symbolNumber,subjectCode;
     private String fName,lName,subName;
-    private int date;
     private boolean status;
     
     public Student1(){
         
     }
 
-    public Student1(int symbolNumber, int subjectCode, String fName, String lName, String subName, int date, boolean status) {
+    public Student1(int symbolNumber, int subjectCode, String fName, String lName, String subName, boolean status) {
         this.symbolNumber = symbolNumber;
         this.subjectCode = subjectCode;
         this.fName = fName;
         this.lName = lName;
         this.subName = subName;
-        this.date = date;
         this.status = status;
     }
 
@@ -69,14 +67,6 @@ public class Student1 {
 
     public void setSubName(String subName) {
         this.subName = subName;
-    }
-
-    public int getDate() {
-        return date;
-    }
-
-    public void setDate(int date) {
-        this.date = date;
     }
 
     public boolean isStatus() {
