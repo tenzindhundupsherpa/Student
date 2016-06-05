@@ -3,21 +3,31 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.tenzin.Student.lap;
+package com.tenzin.Student.cap;
 
 /**
  *
  * @author Home
  */
-public class Laptop {
+public class Cap {
     private int id;
-    private String name, companyName;
+    private String name,companyName;
     private double amount;
     private boolean status;
- 
-    public Laptop(){
+    
+    public Cap(){
         
-    }   
+    }
+
+    public Cap(int id, String name, String companyName, double amount, boolean status) {
+        this.id = id;
+        this.name = name;
+        this.companyName = companyName;
+        this.amount = amount;
+        this.status = status;
+    }
+    
+    
 
     public int getId() {
         return id;
@@ -58,6 +68,7 @@ public class Laptop {
     public void setStatus(boolean status) {
         this.status = status;
     }
+    
     
     
     
